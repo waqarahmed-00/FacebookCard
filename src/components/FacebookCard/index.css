@@ -1,0 +1,192 @@
+.facebookCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:lightblue;
+} 
+.maindiv{
+  max-width: 500px;
+  max-height: 1200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  margin-top: 20px;
+  background-color: white;
+}
+.header{
+  padding: 15px;
+  
+  width: 100%;
+  height: 100px;
+}
+.profile-image{
+  width: 70px;
+  padding: 0px 10px 0px 10px;
+}
+.pic{
+  vertical-align: middle;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.id-name{
+  max-width: 50%;
+  height: 60px;
+}
+.id-name h6{
+  margin-top: -47px;
+  margin-left: 70px;
+  padding: 5px 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.id-name h6 a{
+  color: black;
+}
+.id-name span{
+  font-size: 15px;
+}
+.id-name img{
+  width: 8%;
+}
+.dots{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: -57px;
+}
+.dots p{
+  font-weight: 600;
+  font-size: 20px;
+}
+.dots p span{
+  margin-left: 10px;
+}
+.dots p:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+.description{
+  max-width: 100%;
+  max-height: 150px ;
+  margin-left: 13px;
+  margin-top: -20px;
+  padding: 10px;
+}
+.description p{
+  font-size: 17px;
+}
+.image-gallery{
+  width: 100%;
+  height: auto;
+}
+.reacts{
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+}
+.reacts img{
+  width: 4%;
+}
+.reacts span{
+  color: gray;
+  font-size: 19px;
+  margin-top: 50px;
+}
+.emojies{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-top: -13px;
+}
+.emojies img{
+  width: 9%;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.emojies p{
+  display: inline;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.emojies:hover .reactions{
+  display: block;
+}
+.emojies span img{
+  width: 5.5%;
+  cursor: pointer;
+  margin-left: 50px;
+}
+.emojies span p{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.reactions{
+  position: absolute;
+  background-color: white;
+  padding: 6px;
+  width: 300px;
+  border-radius: 15px;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -100px;
+  margin-left: 30px;
+  /* visibility: none; */
+  display: none;
+}
+.reactions img{
+  width: 12%;
+  margin-left: 10px;
+}
+.like:hover .reactions{
+  visibility: visible;
+}
+.last-image{
+  margin-top: 35px;
+  width: 70px;
+  padding: 0px 10px 0px 10px;
+}
+.picture{
+  vertical-align: middle;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.picture img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.input-field{
+  margin-left: 60px;
+  margin-top: -40px;
+  width: 430px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.input-field input{
+  width: 420px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: gainsboro;
+  border: none;
+  padding: 15px;
+}
+.input-field input::placeholder{
+  font-size: 18px;
+  color: gray;
+}
